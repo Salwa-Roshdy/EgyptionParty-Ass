@@ -1,0 +1,246 @@
+body {
+    height: 200vh;
+}
+
+#Home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url('../imgs/background.jpg');
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+    position: relative;
+}
+
+.home-content h2 {
+
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.home-content {
+    color: white;
+
+}
+
+.home-menu {
+    color: white;
+    font-size: 30px;
+    /*    position: absolute;
+    left: 0px;
+ */
+    position: absolute;
+
+    top: 0%;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    z-index: 1000;
+    /*  display: none;
+ */
+}
+
+.home-menu ul {
+    padding-top: 40px;
+    list-style: none;
+
+}
+
+.home-menu ul li {
+    font-size: 20px;
+    padding-block: 20px;
+}
+
+
+.home-menu a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .5s;
+
+}
+
+.home-menu i:hover {
+
+    color: #b7240a;
+}
+
+.home-menu a:hover {
+
+    color: #b7240a;
+}
+
+.outer-side {
+    background-color: #b7240a;
+}
+
+.main-menu {
+
+    width: 250px;
+    display: none;
+    padding: 15px;
+    overflow: auto;
+    background: #000;
+    z-index: 99;
+    height: 100vh !important;
+    position: fixed;
+    white-space: nowrap;
+
+}
+
+.main-menu i {
+    position: absolute;
+    right: 20px;
+
+
+}
+
+/*  .open-menu {
+    position: absolute;
+    background-color: aqua;
+
+   
+}  */
+/* .acc {
+    padding: 70px;
+    width: 60%;
+
+}
+ */
+#accordin .container {
+    width: 50%;
+    margin-block: 40px;
+}
+
+#accordin .container h2 {
+    margin: 0;
+    padding-block: 15px;
+}
+
+.acc-header {
+    background-color: rgba(214, 46, 51, 0.6) !important;
+    border-radius: 0% !important;
+    color: bisque;
+
+}
+
+/* .acc-header::after {
+    content: none;
+
+}
+
+ */
+.accordin-item {
+    background-color: #ccc;
+}
+
+.acc-header {
+    text-align: center;
+}
+
+.acc-content {
+    padding-inline: 20px;
+    padding-block: 10px;
+    text-align: center;
+}
+
+.CountDown {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url('../imgs/background2.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+
+
+}
+
+.col-md-3 {
+    text-align: center;
+}
+
+.count-Container {
+    margin-inline: 70px;
+    overflow: hidden;
+    /*     height: 200px; */
+    /*   width: 100%; */
+
+}
+
+.row {
+    height: 200px;
+    margin-inline: 50px;
+}
+
+.countitem {
+    border: 1px solid #ffffff;
+    height: 100px;
+    padding: 40px;
+    font-weight: 700;
+    font-size: 26px;
+    color: #ffffff;
+
+    /*     width: 10%; */
+}
+
+
+
+#join-us {
+    margin-top: 100px;
+}
+
+#join-us h5 {
+    font-weight: 900 !important;
+}
+
+#join-us ul {
+    list-style: none;
+}
+
+ul i {
+    margin-right: 10px;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+.social {
+    width: 60%;
+}
+
+.social-item {
+    width: 15%;
+}
+
+.social-item .item {
+
+    border: 1px solid #999;
+    display: grid;
+    width: 40px;
+    height: 40px;
+}
+
+.social-item .item i {
+    margin: auto;
+    color: #999;
+    font-weight: 400 !important;
+
+}
+
+.social-item .item:hover {
+    background-color: #b7240a;
+    border: #b7240a;
+    cursor: pointer;
+}
+
+.item:hover i {
+    color: white
+}
+
+textarea {
+    height: 200px;
+}
+
+#join-us span {
+    color: #b7240a;
+    font-size: larger;
+}
